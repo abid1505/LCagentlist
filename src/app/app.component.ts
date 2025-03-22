@@ -446,13 +446,13 @@ UpdateBanner() {
 slideConfig = {
   draggable: true,
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 4000,
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  dots: true,
+  dots: false,
   arrows: false,
-
+  fade: true 
 
 };
 addSlide() {
