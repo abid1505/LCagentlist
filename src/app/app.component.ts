@@ -510,7 +510,7 @@ terms(){
 public scrollRight(): void {
   if (this.tab) {
     this.tab.nativeElement.scrollTo({ 
-      left: this.tab.nativeElement.scrollLeft + 50, 
+      left: this.tab.nativeElement.scrollLeft + 100, 
       behavior: 'smooth' 
     });
   } else {
@@ -521,7 +521,7 @@ public scrollRight(): void {
 public scrollleft(): void {
   if (this.tab) {
     this.tab.nativeElement.scrollTo({ 
-      left: this.tab.nativeElement.scrollLeft - 50, 
+      left: this.tab.nativeElement.scrollLeft - 100, 
       behavior: 'smooth' 
     });
   } else {
